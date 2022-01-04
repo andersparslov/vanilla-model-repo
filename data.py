@@ -1,6 +1,6 @@
 import torch
 import numpy as np
-PATH = 'C:\\Users\\snowy\\Documents\\ml_ops\\dtu_mlops\\data\\corruptmnist\\'
+PATH = 'corruptmnist\\'
 
 def mnist():
     images_train = []
@@ -17,4 +17,5 @@ def mnist():
     images_test = torch.Tensor(data['images']).unsqueeze(1)
     labels_test = torch.Tensor(data['labels']).long()
     test = torch.utils.data.TensorDataset(images_test, labels_test)
+    
     return train, test
