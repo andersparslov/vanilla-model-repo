@@ -1,0 +1,7 @@
+# Made by using (in project directory in conda environment):
+# pipreqs
+click==8.0.3
+numpy==1.22.0
+python-dotenv==0.19.2
+setuptools==60.2.0
+torch==1.8.1

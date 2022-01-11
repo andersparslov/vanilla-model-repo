@@ -1,0 +1,6 @@
+wandb_version: 1
+
+lr:
+  value: 0.0011159510624223722
+optimizer:
+  value: adam

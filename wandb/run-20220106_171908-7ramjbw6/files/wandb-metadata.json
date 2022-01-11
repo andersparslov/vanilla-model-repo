@@ -1,0 +1,27 @@
+{
+    "os": "Windows-10-10.0.19042-SP0",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-01-06T16:19:10.816216",
+    "startedAt": "2022-01-06T16:19:08.604796",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 2060 SUPER",
+    "gpu_count": 1,
+    "cpu_count": 6,
+    "cuda": null,
+    "args": [
+        "--lr=0.0470365592838793",
+        "--optimizer=sgd"
+    ],
+    "state": "running",
+    "program": "src/models/train_model.py",
+    "codePath": "project\\src\\models\\train_model.py",
+    "git": {
+        "remote": "https://github.com/andersparslov/vanilla-model-repo.git",
+        "commit": "b865f81103f07ee6c34d97d2a9515377a26b0131"
+    },
+    "email": "s164210@student.dtu.com",
+    "root": "C:/Users/snowy/Documents/ml_ops/vanilla-model-repo",
+    "host": "DESKTOP-RRA6NR1",
+    "username": "snowy",
+    "executable": "C:\\Users\\snowy\\Anaconda3\\envs\\ml_ops\\python.exe"
+}

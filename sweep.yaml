@@ -1,0 +1,14 @@
+program: src/models/train_model.py
+method: bayes
+metric:
+  name: validation_accuracy
+  goal: maximize
+parameters:
+  lr:
+    min: 0.0001
+    max: 0.1
+  optimizer:
+    values: ["adam", "sgd"]
+early_terminate:
+  type: hyperband
+  min_iter: 3
